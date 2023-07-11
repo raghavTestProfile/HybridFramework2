@@ -1,0 +1,6 @@
+LOg4j only implemented not used
+Screenshot function not implemented yet
+browser name not implemented in extent reports
+major issues faced because of extending baseclass from utils. Base class should be always parent of all or keep them is same package
+thread.wait needs to be replaced with proper wait methods
+

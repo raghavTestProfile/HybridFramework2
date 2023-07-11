@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.Utilities.ExtentListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.TestCases.ProductSearchPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ProductSearchPageTestCases -->
+      <class name="com.qa.TestCases.LoginPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.LoginPageTestCases -->
+      <class name="com.qa.TestCases.LoginPageTestCasesDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.LoginPageTestCasesDDT -->
+      <class name="com.qa.TestCases.ShoppingCartTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ShoppingCartTestCases -->
+      <class name="com.qa.TestCases.ProductPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="addToCartSuccessFully"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ProductPageTestCases -->
+      <class name="com.qa.TestCases.RegisterPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.RegisterPageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
